@@ -10,7 +10,7 @@ class AutoClicker:
         self.root.geometry("300x150")
 
         self.clicking = False
-        self.interval = 0.1  # Default interval between clicks in seconds
+        self.interval = 0.1  
 
         self.label = tk.Label(root, text="AutoClicker")
         self.label.pack(pady=10)
